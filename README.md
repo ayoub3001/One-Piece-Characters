@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# lista_tareas
+# One Piece
 
 A new Flutter project.
 
@@ -21,4 +21,5 @@ samples, guidance on mobile development, and a full API reference.
 >>>>>>> origin/main
 
 
-|  ![Screen Home](assets/ImageAppEnd/screen_1.png)  |  ![Screen Character](assets/ImageAppEnd/screen_2.png)  |
+![Screen Home](assets/ImageAppEnd/screen_1.png)
+![Screen Character](assets/ImageAppEnd/screen_2.png) 
