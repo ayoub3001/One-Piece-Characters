@@ -1,3 +1,5 @@
+//REALIZADO POR AYOUB AJLANE BENNANI
+
 import 'package:flutter/material.dart';
 
 //Aqui nos encargaos de mostrar las portadas(las minitaturas)
