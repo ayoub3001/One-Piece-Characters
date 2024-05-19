@@ -1,0 +1,26 @@
+# Podfile
+
+# Uncomment this line to define a global platform for your project
+platform :ios, '12.0'
+
+
+target 'Runner' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Runner
+end
+
+# Post Install processing for Flutter application integration
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    flutter_additional_ios_build_settings(target)
+  end
+end
+
+def flutter_additional_ios_build_settings(target)
+  target.build_configurations.each do |config|
+    config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+    config.build_settings['ENABLE_BITCODE'] = 'NO'
+  end
+end

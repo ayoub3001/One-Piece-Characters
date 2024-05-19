@@ -36,17 +36,17 @@ class PageHome extends StatelessWidget {
                   child: Row(
                     children: [
                       pelicula([
-                        "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/p1.jpg",
+                        "assets/images/p1.jpg",
                         "Portada 1",
                         "2023"
                       ], context),
                       pelicula([
-                        "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/p2.jpg",
+                        "assets/images/p2.jpg",
                         "Portada 2",
                         "2018"
                       ], context),
                       pelicula([
-                        "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/p3.jpg",
+                        "assets/images/p3.jpg",
                         "Portada 3",
                         "2017"
                       ], context),

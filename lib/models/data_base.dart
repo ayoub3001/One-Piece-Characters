@@ -14,7 +14,7 @@ const Map<String, Color> colores = {
   "Marron": Color.fromARGB(255, 139, 69, 19),
 };
 
-// Esta es la bse de datos de cada personaje, solamente agregar aqui el personaje con las claves .
+// Esta es la base de datos de cada personaje, solamente agregar aqui el personaje con las claves .
 // CLAVES:
 // - nombre
 // - image
@@ -23,42 +23,42 @@ const Map<String, Color> colores = {
 const Map<String, Map<String, String>> data = {
   "Personaje 1": {
     "nombre": "Brook",
-    "image": "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o1.png",
+    "image": "assets/images/o1.png",
     "color": "Morado"
   },
   "Personaje 2": {
     "nombre": "Boa Hancock",
-    "image": "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o5.png",
+    "image": "assets/images/o5.png",
     "color": "Violeta"
   },
   "Personaje 3": {
     "nombre": "Alvida",
-    "image": "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o4.png",
+    "image": "assets/images/o4.png",
     "color": "Rojo"
   },
   "Personaje 4": {
     "nombre": "Roronoa Zoro",
-    "image": "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o6.png",
+    "image": "assets/images/o6.png",
     "color": "Azul"
   },
   "Personaje 5": {
     "nombre": "Portgas D. Ace",
-    "image": "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o3.png",
+    "image": "assets/images/o3.png",
     "color": "Amarillo"
   },
   "Personaje 6": {
     "nombre": "Monkey D. Luffy",
-    "image": "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o2.png",
+    "image": "assets/images/o2.png",
     "color": "Verde"
   },
   "Personaje 7": {
     "nombre": "Nico Robin",
-    "image": "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o7.png",
+    "image": "assets/images/o7.png",
     "color": "Marron"
   },
   "Personaje 8": {
     "nombre": "Franky",
-    "image": "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o8.png",
+    "image": "assets/images/o8.png",
     "color": "Naranja"
   },
 };

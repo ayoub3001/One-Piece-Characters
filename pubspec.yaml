@@ -50,8 +50,8 @@ dev_dependencies:
 
 flutter_launcher_icons:
   android: true
-  ios: true
-  image_path: "/Users/ayou/Proyectos/Flutter/One_Piece/assets/images/logo.png"
+  ios: true 
+  image_path: "assets/images/logo.png"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -65,15 +65,17 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - /Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o1.png
-    - /Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o2.png
-    - /Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o3.png
-    - /Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o4.png
-    - /Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o5.png
-    - /Users/ayou/Proyectos/Flutter/One_Piece/assets/images/o6.png
-    - /Users/ayou/Proyectos/Flutter/One_Piece/assets/images/p1.jpg
-    - /Users/ayou/Proyectos/Flutter/One_Piece/assets/images/p2.jpg
-    - /Users/ayou/Proyectos/Flutter/One_Piece/assets/images/p3.jpg
+    - assets/images/o1.png
+    - assets/images/o2.png
+    - assets/images/o3.png
+    - assets/images/o4.png
+    - assets/images/o5.png
+    - assets/images/o6.png
+    - assets/images/o7.png
+    - assets/images/o8.png
+    - assets/images/p1.jpg
+    - assets/images/p2.jpg
+    - assets/images/p3.jpg
 
   #   - images/a_dot_ham.jpeg
 
@@ -91,7 +93,7 @@ flutter:
   fonts:
     - family: Manrope
       fonts:
-        - asset: /Users/ayou/Proyectos/Flutter/One_Piece/assets/fonts/manrope.ttf
+        - asset: assets/fonts/manrope.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
